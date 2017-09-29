@@ -1,0 +1,86 @@
+html {
+  background-color: rgb(244, 248, 249);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  width: 954px;
+  height: 274px;
+  padding: 40px;
+  font-family: helvetica, sans-serif;
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 8px;
+}
+
+header {
+  padding: 0px;
+}
+
+li {
+  display: inline;
+}
+
+.button {
+  color: rgb(85, 172, 238);
+  font-size: 32px;
+  font-weight: bold;
+  border-color: rgb(85, 172, 238);
+  border-style: solid;
+  border-width: 2px;
+  padding: 15px 25px;
+  border-radius: 8px;
+  float: right;
+}
+
+.user-name {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  float: left;
+  left: 139px;
+  top: 49px;
+}
+
+.user-account {
+  color: rgb(104, 109, 129);
+  font-size: 28px;
+  float: left;
+  position: absolute;
+  left: 139px;
+  top: 65px;
+}
+
+.text {
+  color: black;
+  font-size: 32px;
+  position: relative;
+}
+
+.date {
+  color: rgb(101, 116, 127);
+  font-size: 30px;
+  position: relative;
+  bottom: 10px;
+}
+
+.bottom-text {
+  color: rgb(105, 120, 130);
+  font-size: 30px;
+}
+
+.reply-button {
+  float: left;
+}
+
+.retweet {
+  float: left;
+  position: relative;
+  left: 35px;
+}
+
+.favorite {
+  float: left;
+  position: relative;
+  left: 70px;
+}
